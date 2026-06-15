@@ -55,13 +55,6 @@ This project was developed to gain practical experience in biomedical instrument
 
 ---
 
-## 📈 ECG Output
-
-![ECG Output](Images/ECG_waveform_screenshot.jpeg)
-
-*Figure 3: ECG waveform obtained using the Arduino Serial Plotter.*
-
----
 ## 📽️ Project Demo Video  
 Watch the working ECG system here:  
 https://drive.google.com/file/d/1QXTfzPo8gEkdVivUgIApS5H1KNG7JOz4/view?usp=drive_link
@@ -147,7 +140,7 @@ This project has been developed solely for **educational and demonstration purpo
 B.Tech in Electrical Engineering  
 National Institute of Technology Agartala  
 
-This repository has been created to document and showcase the implementation of an ECG Heart Monitoring System using Arduino Uno and the AD8232 ECG sensor module. The project was developed as part of academic coursework and has been organized and presented here for learning, documentation, and portfolio purposes.
+The project was developed as part of academic coursework and has been organized and presented here for learning, documentation, and portfolio purposes.
 
 
 
