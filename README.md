@@ -69,7 +69,7 @@ The Arduino code used in this project is available in the repository and is resp
 
 The program also incorporates lead-off detection to identify improper electrode connections, ensuring more reliable signal acquisition.
 
-**Source Code:** `ECG_Arduino.ino`
+**Source Code:** ECG_Arduino.ino`
 
 ---
 
@@ -127,6 +127,8 @@ This project has been developed solely for **educational and demonstration purpo
 **Mampi Das**  
 B.Tech in Electrical Engineering  
 National Institute of Technology Agartala
+
+---
 **Note:** This repository has been organized and documented for portfolio purposes based on the project implementation carried out during laboratory coursework.
 
 
