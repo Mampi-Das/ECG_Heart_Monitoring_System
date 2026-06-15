@@ -62,6 +62,11 @@ This project was developed to gain practical experience in biomedical instrument
 *Figure 3: ECG waveform obtained using the Arduino Serial Plotter.*
 
 ---
+📽️ Project Demo Video  
+Watch the working ECG system here:  
+https://drive.google.com/file/d/1QXTfzPo8gEkdVivUgIApS5H1KNG7JOz4/view?usp=drive_link
+
+---
 
 ## 💻 Arduino Program
 
