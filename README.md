@@ -67,7 +67,7 @@ The Arduino code used in this project is available in the repository and is resp
 
 The program also incorporates lead-off detection to identify improper electrode connections, ensuring more reliable signal acquisition.
 
-**Source Code:** `Arduino_code/ECG_Arduino.ino`
+🔗 **Source Code:** [ECG_Arduino.ino](Arduino_code/ECG_Arduino.ino)
 
 ---
 
