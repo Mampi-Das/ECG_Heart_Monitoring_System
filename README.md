@@ -101,7 +101,7 @@ The system successfully acquired and visualized ECG signals in real time using t
 
 ### 📌 Observation
 
-The real-time ECG output obtained from the hardware setup exhibits signal characteristics that correspond to the standard ECG waveform. Minor variations and noise may occur due to factors such as electrode placement, body movement, and environmental interference. The ideal ECG waveform serves as a reference for understanding the expected morphology of a normal cardiac cycle.
+The acquired ECG signal closely resembles the standard ECG waveform. Minor noise and variations may occur due to electrode placement and body movement, while the ideal ECG serves as a reference for comparison.
 
 ---
 
