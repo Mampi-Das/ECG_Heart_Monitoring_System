@@ -100,7 +100,7 @@ The system successfully acquired and visualized ECG signals in real time using t
 
 ### 2. Ideal ECG Reference Waveform
 
-![Ideal ECG Waveform](Images/ideal_ECG.webp)
+![Ideal ECG Waveform](Images/Images/ideal_ECG.webp)
 
 *Figure 4: Standard ECG waveform illustrating the typical P wave, QRS complex, and T wave of a normal cardiac cycle. This image is provided for educational reference and comparison purposes.*
 
