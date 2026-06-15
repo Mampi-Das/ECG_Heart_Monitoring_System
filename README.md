@@ -88,13 +88,27 @@ The AD8232 ECG sensor module amplifies and filters these weak bioelectrical sign
 
 ## 📈 Results
 
-The system successfully acquired and visualized ECG signals in real time. The waveform displayed on the Serial Plotter exhibited distinct peaks corresponding to cardiac electrical activity.
+The system successfully acquired and visualized ECG signals in real time using the AD8232 ECG sensor module and Arduino Uno. The waveform displayed on the Arduino Serial Plotter exhibited distinct peaks corresponding to cardiac electrical activity.
 
-The quality of the acquired signal was observed to improve with proper electrode placement and minimal body movement during measurement.
+### 1. Real-Time ECG Output
 
-![ECG Output](Images/ECG_waveform_screenshot.jpeg)
+![Real ECG Output](Images/ECG_waveform_screenshot.jpeg)
 
-*Figure: ECG waveform obtained using the Arduino Serial Plotter.*
+*Figure 3: Real-time ECG waveform obtained from the AD8232 sensor using the Arduino Serial Plotter.*
+
+---
+
+### 2. Ideal ECG Reference Waveform
+
+![Ideal ECG Waveform](Images/ideal_ECG.webp)
+
+*Figure 4: Standard ECG waveform illustrating the typical P wave, QRS complex, and T wave of a normal cardiac cycle. This image is provided for educational reference and comparison purposes.*
+
+---
+
+### 📌 Observation
+
+The real-time ECG output obtained from the hardware setup exhibits signal characteristics that correspond to the standard ECG waveform. Minor variations and noise may occur due to factors such as electrode placement, body movement, and environmental interference. The ideal ECG waveform serves as a reference for understanding the expected morphology of a normal cardiac cycle.
 
 ---
 
