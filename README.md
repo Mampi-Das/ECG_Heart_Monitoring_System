@@ -13,18 +13,15 @@ This project was developed to gain practical experience in biomedical instrument
 - To understand the fundamentals of ECG signal acquisition.
 - To interface the AD8232 ECG sensor with Arduino Uno.
 - To visualize ECG signals in real time using the Arduino Serial Plotter.
-- To gain hands-on experience in biomedical instrumentation.
 - To study signal processing applications using microcontrollers.
 
 ---
 
 ## 🛠️ Components Used
 
-- Arduino Uno R3
+- Arduino Uno 
 - AD8232 ECG Sensor Module
-- ECG Electrodes
 - Jumper Wires
-- Breadboard
 - USB Cable
 - Arduino IDE
 
@@ -44,7 +41,7 @@ This project was developed to gain practical experience in biomedical instrument
 
 ## 📷 Hardware Setup
 
-![Hardware Setup](Images/hardware_setup.jpeg)
+![Hardware Setup](Images/Hardware_setup_ecg.jpeg)
 
 *Figure 1: Actual hardware implementation of the ECG monitoring system.*
 
@@ -68,10 +65,68 @@ This project was developed to gain practical experience in biomedical instrument
 
 ## 💻 Arduino Program
 
-The Arduino source code used in this project is available in:
+The Arduino code used in this project is available in the repository and is responsible for reading the analog ECG signals from the AD8232 sensor module and transmitting the data to the Arduino Serial Plotter for real-time visualization.
 
-```text
-Arduino_Code/ECG_Arduino.ino
-```
+The program also incorporates lead-off detection to identify improper electrode connections, ensuring more reliable signal acquisition.
+
+**Source Code:** `ECG_Arduino.ino`
 
 ---
+
+## ⚙️ Working Principle
+
+The human heart generates electrical impulses during each heartbeat. These signals can be detected non-invasively through electrodes placed on the skin.
+
+The AD8232 ECG sensor module amplifies and filters these weak bioelectrical signals to produce a conditioned analog output. The Arduino Uno continuously reads this output through its analog input pin and transmits the values to the Arduino IDE Serial Plotter, where the ECG waveform is displayed in real time.
+
+---
+
+## 📈 Results
+
+The system successfully acquired and visualized ECG signals in real time. The waveform displayed on the Serial Plotter exhibited distinct peaks corresponding to cardiac electrical activity.
+
+The quality of the acquired signal was observed to improve with proper electrode placement and minimal body movement during measurement.
+
+![ECG Output](Images/ECG_waveform_screenshot.jpeg)
+
+*Figure: ECG waveform obtained using the Arduino Serial Plotter.*
+
+---
+
+## 🔍 Key Learnings
+
+Through this project, practical knowledge was gained in the following areas:
+
+- Biomedical signal acquisition techniques.
+- Interfacing sensors with microcontrollers.
+- Real-time data visualization using Arduino tools.
+- Basic concepts of ECG waveform monitoring.
+- Hardware implementation and troubleshooting.
+
+---
+
+## 🚀 Future Enhancements
+
+Potential improvements to this project include:
+
+- Integration of Bluetooth modules for wireless monitoring.
+- Development of a mobile application for ECG visualization.
+- Implementation of cloud-based data storage for remote access.
+- IoT-enabled healthcare monitoring solutions.
+- Exploration of machine learning techniques for arrhythmia detection.
+
+---
+
+## ⚠️ Disclaimer
+
+This project has been developed solely for **educational and demonstration purposes**. It is **not intended for medical diagnosis, treatment, or clinical use**. The system should not be considered a substitute for certified medical equipment.
+
+---
+## 👩‍💻 Author
+
+**Mampi Das**  
+B.Tech in Electrical Engineering  
+National Institute of Technology Agartala
+**Note:** This repository has been organized and documented for portfolio purposes based on the project implementation carried out during laboratory coursework.
+
+
