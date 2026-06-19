@@ -56,8 +56,9 @@ This project was developed to gain practical experience in biomedical instrument
 ---
 
 ## 📽️ Project Demo Video  
-Watch the working ECG system here:  
-https://drive.google.com/file/d/1QXTfzPo8gEkdVivUgIApS5H1KNG7JOz4/view?usp=drive_link
+## Demo
+
+📹 [Watch the ECG System Demonstration on Google Drive](https://drive.google.com/file/d/1QXTfzPo8gEkdVivUgIApS5H1KNG7JOz4/view?usp=drive_link)
 
 ---
 
